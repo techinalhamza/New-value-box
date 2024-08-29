@@ -4,6 +4,9 @@ import Header from "./components/header/Header";
 import HeroSlider from "./components/hero/HeroSlider";
 import PopularProduct from "./components/popularProducts/PopularProduct";
 import WhyChooseUs from "./components/whyChooseUs/WhyChooseUs";
+import ShopbyCategory from "./components/shopby Category/ShopbyCategory";
+import OurExperties from "./components/OurExperties/OurExperties";
+import InquryForm from "./components/inquiryForm/InquryForm";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,8 +15,11 @@ function App() {
     <>
       <Header />
       <HeroSlider />
+      <ShopbyCategory />
       <PopularProduct />
+      <OurExperties />
       <WhyChooseUs />
+      <InquryForm />
     </>
   );
 }

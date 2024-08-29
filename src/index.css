@@ -8,6 +8,11 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+body,html{
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
 .main-container {
   max-width: 1290px;
   width: 100%;

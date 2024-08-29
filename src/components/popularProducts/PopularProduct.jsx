@@ -7,7 +7,7 @@ function PopularProduct() {
     <>
       <div className="product-contaoner mb-8">
         <div className="main-container">
-          <div className="title-bar">
+          <div className="product-title-bar">
             <h1 className="text-3xl ">Popular Print Products</h1>
           </div>
           <div
