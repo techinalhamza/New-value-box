@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
-.main-container{
+.main-container {
   max-width: 1290px;
   width: 100%;
   margin: auto;
