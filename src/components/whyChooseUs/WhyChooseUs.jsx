@@ -1,9 +1,9 @@
 import React from "react";
 import { SlSizeFullscreen } from "react-icons/sl";
-import image1 from "../../assets/customize size.webp";
-import image2 from "../../assets/custom-material.webp";
-import image3 from "../../assets/free design support.webp";
-import image4 from "../../assets/Exclusive Finishing.webp";
+import image1 from "../../assets/custom-size (2).png";
+import image2 from "../../assets/Custom-materials.png";
+import image3 from "../../assets/Custom-print (2).png";
+import image4 from "../../assets/Custom-finishes.png";
 import background from "../../assets/background2.jpg";
 
 function WhyChooseUs() {
@@ -11,7 +11,7 @@ function WhyChooseUs() {
     <>
       <div className="why-choose-container   py-12">
         <div className="main-container">
-          <div className="upper-sec text-center">
+          {/* <div className="upper-sec text-center">
             <p>OPTIONS AND MATIERIALS</p>
             <h1 className="text-[24px] font-bold">
               Build your Cosmetics Boxes any way you want
@@ -20,7 +20,7 @@ function WhyChooseUs() {
               Enjoy endless packaging customization to create the cosmetic
               product packaging you need to succeed
             </p>
-          </div>
+          </div> */}
           <div className="">
             <div className="img rounded-xl overflow-hidden">
               <img src={background} alt="" className="rounded-xl" />
@@ -66,7 +66,7 @@ function WhyChooseUs() {
               <div
                 className="choosing-cards py-8 px-8 rounded-lg"
                 style={{
-                  background: "linear-gradient( #fc9c3d, #7b1536)",
+                  background: "linear-gradient(#ffb77096, #d95c00)",
                 }}
               >
                 <div className="choose-icon w-16  mb-4">
@@ -84,7 +84,7 @@ function WhyChooseUs() {
               <div
                 className="choosing-cards py-8 px-8 rounded-lg"
                 style={{
-                  background: "linear-gradient( #f6b0e8, #7b1536)",
+                  background: "linear-gradient( #6ebb6282, #107800)",
                 }}
               >
                 <div className="choose-icon w-16  mb-4">

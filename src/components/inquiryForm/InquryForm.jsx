@@ -1,5 +1,5 @@
 import React from "react";
-import formImg from "../../assets/query-form-box.png";
+import formImg from "../../assets/H4-images-9.jpg";
 import { Button } from "@mui/material";
 import { FaAngleRight } from "react-icons/fa";
 
@@ -10,9 +10,9 @@ const InquryForm = () => {
         className="inquiry-form-container py-20 mb-16"
         style={{
           background: "#006697",
-          // backgroundImage: `url(${formImg})`,
+          backgroundImage: `url(${formImg})`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundPosition: "center",
         }}
       >
@@ -41,8 +41,8 @@ const InquryForm = () => {
                     id="length"
                     name="length"
                     type="text"
-                    className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    // placeholder="Length"
+                    className=" w-full px-3 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Length"
                     required
                   />
                 </div>
@@ -57,8 +57,8 @@ const InquryForm = () => {
                     id="width"
                     name="width"
                     type="text"
-                    className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    // placeholder="Width"
+                    className=" w-full px-3 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Width"
                     required
                   />
                 </div>
@@ -73,8 +73,8 @@ const InquryForm = () => {
                     id="height"
                     name="height"
                     type="text"
-                    className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    // placeholder="Height"
+                    className=" w-full px-3 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Height"
                     required
                   />
                 </div>
@@ -93,8 +93,8 @@ const InquryForm = () => {
                     id="stockOption"
                     name="stockOption"
                     type="text"
-                    className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    // placeholder="Stock Option"
+                    className=" w-full px-3 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Stock Option"
                   />
                 </div>
                 <div className="w-full md:w-1/3 px-2 mb-4">
@@ -108,8 +108,8 @@ const InquryForm = () => {
                     id="printOption"
                     name="printOption"
                     type="text"
-                    className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    // placeholder="Print Option"
+                    className=" w-full px-3 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Print Option"
                   />
                 </div>
                 <div className="w-full md:w-1/3 px-2 mb-4">
@@ -123,8 +123,8 @@ const InquryForm = () => {
                     id="finishingOption"
                     name="finishingOption"
                     type="text"
-                    className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    // placeholder="Finishing Option"
+                    className=" w-full px-3 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Finishing Option"
                   />
                 </div>
               </div>
@@ -142,8 +142,8 @@ const InquryForm = () => {
                     id="quantity"
                     name="quantity"
                     type="number"
-                    className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    // placeholder="Quantity"
+                    className=" w-full px-3 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Quantity"
                     required
                   />
                 </div>
@@ -158,8 +158,8 @@ const InquryForm = () => {
                     id="fullName"
                     name="fullName"
                     type="text"
-                    className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    // placeholder="Full Name"
+                    className=" w-full px-3 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Full Name"
                   />
                 </div>
                 <div className="w-full md:w-1/3 px-2 mb-4">
@@ -173,8 +173,8 @@ const InquryForm = () => {
                     id="email"
                     name="email"
                     type="email"
-                    className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    // placeholder="Email Address"
+                    className=" w-full px-3 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Email Address"
                     required
                   />
                 </div>
@@ -191,8 +191,9 @@ const InquryForm = () => {
                 <textarea
                   id="jobDetails"
                   name="jobDetails"
+                  rows="10"
                   className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  // placeholder="Job Details"
+                  placeholder="Job Details"
                 ></textarea>
               </div>
 
@@ -218,9 +219,7 @@ const InquryForm = () => {
             </form>
           </div>
           <div className="right-side w-1/2">
-            <div className="img">
-              <img src={formImg} alt="" />
-            </div>
+            <div className="img">{/* <img src={formImg} alt="" /> */}</div>
           </div>
         </div>
       </div>

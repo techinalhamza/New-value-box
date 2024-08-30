@@ -1,93 +1,148 @@
 import React from "react";
+import "../../components/Footer/Footer.css";
 import logo from "../../assets/logoo.png";
-
-const Footer = () => {
+import { CiLocationOn } from "react-icons/ci";
+import { FaHeadset } from "react-icons/fa";
+import { BsSend } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import appstore from "../../assets/app-store.jpg";
+import googlestore from "../../assets/google-store.jpg";
+import payment from "../../assets/payment-method.png";
+function Footer() {
   return (
     <>
-      <div className="footer-container bg-zinc-800 py-16">
-        <div className="main-container ">
-          <footer className=" text-white py-8 max-w-[1200px]">
-            <div className="container mx-auto flex flex-wrap justify-between">
-              {/* Column 1: Logo and Brand Intro */}
-              <div className="w-full lg:w-[30%] mb-8 lg:mb-0">
-                <img
-                  src="/path-to-logo.png"
-                  alt="Brand Logo"
-                  className="mb-4"
-                />
-                <p className="text-sm">
-                  Short introduction about the brand. Explain what the brand is
-                  about and what services or products it offers.
-                </p>
+      <div className="footer-container bg-zinc-800 mt-12">
+        <div className="main-container">
+          <div className="footer-content ">
+            <div className="row footer-data ">
+              <div className="footer-col mt-4  ">
+                <div className="img">
+                  <img src={logo} alt="" />
+                </div>
+                <div className="company-info mt-4 ">
+                  <p className="text-[#999999]">
+                    Awesome grocery store website template
+                  </p>
+                </div>
               </div>
+              <div className="footer-col mt-4">
+                <div className="hd ">Quick Links</div>
+                <div className="links">
+                  <ul>
+                    <li>
+                      <Link>Home</Link>
+                    </li>
+                    <li>
+                      <Link>Shop</Link>
+                    </li>
+                    <li>
+                      <Link>About us</Link>
+                    </li>
+                    <li>
+                      <Link>Blogs</Link>
+                    </li>
+                    <li>
+                      <Link>Contact us</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="footer-col mt-4">
+                <div className="hd">Categories</div>
+                <div className="links">
+                  <ul>
+                    <li>
+                      <Link>About Us</Link>
+                    </li>
+                    <li>
+                      <Link>Delivery Information</Link>
+                    </li>
+                    <li>
+                      <Link>Privacy Policy</Link>
+                    </li>
+                    <li>
+                      <Link>Terms & Conditions</Link>
+                    </li>
+                    <li>
+                      <Link>Contact Us</Link>
+                    </li>
+                    <li>
+                      <Link>Support Center</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="footer-col mt-4">
+                <div className="hd">Social Links</div>
+                <div className="links">
+                  <ul>
+                    <li>
+                      <Link>Become a Vendor</Link>
+                    </li>
+                    <li>
+                      <Link>Affiliate Program</Link>
+                    </li>
+                    <li>
+                      <Link>Farm Business</Link>
+                    </li>
+                    <li>
+                      <Link>Farm Careers</Link>
+                    </li>
+                    <li>
+                      <Link>Our Suppliers</Link>
+                    </li>
+                    <li>
+                      <Link>Accessibility</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="footer-col mt-4">
+                <div className="text-white font-bold">Contact Us</div>
+                <div className="links mt-4 text-[#999999]">
+                  <h1>
+                    <CiLocationOn />
+                    <span>address:</span> 5171 W Campbell Ave undefined Kent,
+                    Utah 53127 United States
+                  </h1>
 
-              {/* Column 2: Sitemap */}
-              <div className="w-full lg:w-[20%] mb-8 lg:mb-0">
-                <h3 className="text-lg font-semibold mb-4">Sitemap</h3>
-                <ul>
-                  <li className="mb-2">
-                    <a href="#" className="hover:text-gray-400">
-                      Home
-                    </a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="#" className="hover:text-gray-400">
-                      About Us
-                    </a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="#" className="hover:text-gray-400">
-                      Services
-                    </a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="#" className="hover:text-gray-400">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                  <h1>
+                    <FaHeadset />
+                    <span>Call Us:</span> (+91) - 540-025-124553
+                  </h1>
 
-              {/* Column 3: Categories */}
-              <div className="w-full lg:w-[20%] mb-8 lg:mb-0">
-                <h3 className="text-lg font-semibold mb-4">Categories</h3>
-                <ul>
-                  <li className="mb-2">
-                    <a href="#" className="hover:text-gray-400">
-                      Category 1
-                    </a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="#" className="hover:text-gray-400">
-                      Category 2
-                    </a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="#" className="hover:text-gray-400">
-                      Category 3
-                    </a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="#" className="hover:text-gray-400">
-                      Category 4
-                    </a>
-                  </li>
-                </ul>
+                  <h1>
+                    <BsSend />
+                    <span>Email:</span> sale@Nest.com
+                  </h1>
+                </div>
               </div>
+              {/* <div className="footer-col mt-4">
+                <div className="hd">Install App</div>
+                <div className="links mt-4">
+                  <p>From App Store or Google Play</p>
 
-              {/* Column 4: Contact Details */}
-              <div className="w-full lg:w-[30%]">
-                <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-                <p className="mb-2">123 Street Name, City, Country</p>
-                <p className="mb-2">Email: contact@example.com</p>
-                <p className="mb-2">Phone: +123 456 7890</p>
-              </div>
+                  <div className="row imgs my-4">
+                    <div className="col-6 pr-0">
+                      <img src={appstore} alt="" />
+                    </div>
+                    <div className="col-6 pl-0">
+                      <img src={googlestore} alt="" />
+                    </div>
+                  </div>
+
+                  <p>Secured Payment Gateways</p>
+                  <div className="mt-4">
+                    <img src={payment} alt="" />
+                  </div>
+                </div>
+              </div> */}
             </div>
-          </footer>
+          </div>
         </div>
       </div>
     </>
   );
-};
+}
 
 export default Footer;

@@ -8,7 +8,8 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-body,html{
+body,
+html {
   position: relative;
   width: 100%;
   overflow-x: hidden;
@@ -17,4 +18,52 @@ body,html{
   max-width: 1290px;
   width: 100%;
   margin: auto;
+}
+textarea,
+input::placeholder {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.slick-arrow {
+  position: absolute !important;
+  right: 0 !important;
+  top: -39% !important;
+}
+
+.slick-prev {
+  left: 96% !important;
+  right: 100%;
+}
+.slick-prev::before,
+.slick-next::before {
+  color: #075697;
+  font-size: 2rem;
+}
+/* Change the size of the dots */
+.slick-dots li button::before {
+  font-size: 20px;
+
+  /* Adjust the size as needed */
+}
+.slick-dots {
+  bottom: 0 !important;
+}
+/* Change the color of the dots */
+.slick-dots li button::before {
+  color: #075697;
+  /* Set your desired color */
+}
+
+/* Change the color of the active dot */
+.slick-dots li.slick-active button::before {
+  color: #075697;
+  /* Set the active dot color */
+}
+header {
+  position: fixed !important;
+  width: 100%;
+  top: 0 !important;
+  z-index: 111111 !important;
+  background: #ffffff !important;
 }

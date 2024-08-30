@@ -1,17 +1,22 @@
 import React from "react";
 import Slider from "react-slick";
-import firstSlide from "../../assets/slider1.jpg";
-import secSlide from "../../assets/slider2.jpg";
-import thirdSlide from "../../assets/slider3.jpg";
+import firstSlide from "../../assets/four-slide.jpg";
+import secSlide from "../../assets/third-slide3.jpg";
+import thirdSlide from "../../assets/third-slide2.jpg";
 import { Button } from "@mui/material";
 
 function HeroSlider() {
   var settings = {
     dots: true,
-    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
+    // centerMode: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    fade: true,
+    adaptiveHeight: true,
   };
   return (
     <>
@@ -22,10 +27,10 @@ function HeroSlider() {
               width: "100%",
               height: "100%",
               // background: "#ccc  ",
-              // backgroundImage: `url(${secSlide})`, // Corrected here
-              // backgroundPosition: "center",
-              // backgroundSize: "cover",
-              // backgroundRepeat: "no-repeat",
+              backgroundImage: `url(${firstSlide})`, // Corrected here
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
             }}
             className="flex items-center justify-cente"
           >
@@ -63,10 +68,10 @@ function HeroSlider() {
               width: "100%",
               height: "100%",
               // background: "#ccc  ",
-              // backgroundImage: `url(${secSlide})`, // Corrected here
-              // backgroundPosition: "center",
-              // backgroundSize: "cover",
-              // backgroundRepeat: "no-repeat",
+              backgroundImage: `url(${secSlide})`, // Corrected here
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
             }}
             className="flex items-center justify-cente"
           >
@@ -103,10 +108,10 @@ function HeroSlider() {
               width: "100%",
               height: "100%",
               // background: "#ccc  ",
-              // backgroundImage: `url(${secSlide})`, // Corrected here
-              // backgroundPosition: "center",
-              // backgroundSize: "cover",
-              // backgroundRepeat: "no-repeat",
+              backgroundImage: `url(${thirdSlide})`, // Corrected here
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
             }}
             className="flex items-center justify-cente"
           >

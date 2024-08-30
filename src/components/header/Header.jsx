@@ -1,11 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../assets/logoo.png";
 import { FaSearch } from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
 import { CiUser } from "react-icons/ci";
 import Navbar from "./Navbar";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 function Header() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 786) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
+    };
+
+    // Add event listener to handle screen resize
+    window.addEventListener("resize", handleResize);
+
+    // Call handler right away so the state gets updated with initial window size
+    handleResize();
+
+    // Clean up the event listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <>
       <header className=" ">
@@ -13,7 +35,7 @@ function Header() {
           <div className="logo w-[20%}">
             <img src={logo} alt="" />
           </div>
-          <div className="searchbar flex items-center  border border-gray-200 h-min rounded-full overflow-hidden w-[40%] px-6">
+          <div className="header-search-bar flex items-center  border border-gray-200 h-min rounded-full overflow-hidden w-[40%] px-6">
             <div className="search-btn">
               <FaSearch />
             </div>
@@ -36,13 +58,18 @@ function Header() {
                   <p>(713) 893-4763</p>
                 </div>
               </div>
-              |
+              <div className="nav-divider">|</div>
               <div className="nav-account flex items-center gap-4">
                 <div className="user-icon text-2xl font-light  p-2.5 rounded-full text-black">
                   <CiUser />
                 </div>
                 <p>My Account</p>
               </div>
+              {isMobile && (
+                <div className="hamburger-menu">
+                  <RxHamburgerMenu />
+                </div>
+              )}
             </div>
           </div>
         </div>
