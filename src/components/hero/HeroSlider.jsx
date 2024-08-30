@@ -36,7 +36,8 @@ function HeroSlider() {
                   Eco-Friendly
                 </h1>
                 <h1 className="text-[4rem] font-bold text-[#075697] leading-[70px]">
-                  <i className="font-serif text-[#FAC409]">Packaging</i> Bags
+                  <i className="font-serif text-[#FAC409]">Packaging</i>
+                  Bags
                 </h1>
               </div>
               <p className="text-[1.5rem] tracking-[3px]">

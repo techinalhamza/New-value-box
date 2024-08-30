@@ -7,6 +7,8 @@ import WhyChooseUs from "./components/whyChooseUs/WhyChooseUs";
 import ShopbyCategory from "./components/shopby Category/ShopbyCategory";
 import OurExperties from "./components/OurExperties/OurExperties";
 import InquryForm from "./components/inquiryForm/InquryForm";
+import FaqAccording from "./components/according/FaqAccording";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +22,8 @@ function App() {
       <OurExperties />
       <WhyChooseUs />
       <InquryForm />
+      <FaqAccording />
+      <Footer />
     </>
   );
 }

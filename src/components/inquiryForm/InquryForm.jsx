@@ -7,7 +7,7 @@ const InquryForm = () => {
   return (
     <>
       <div
-        className="inquiry-form-container pt-20"
+        className="inquiry-form-container pt-20 mb-16"
         style={{
           background: "#006697",
           // backgroundImage: `url(${formImg})`,

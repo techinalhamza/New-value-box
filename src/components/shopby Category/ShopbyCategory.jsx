@@ -9,7 +9,10 @@ function ShopbyCategory() {
       <div className="shop-by-category-container mb-12">
         <div className="main-container">
           <div className="category-title-bar flex justify-between">
-            <h1 className="text-3xl ">Shop By Category</h1>
+            <h1 className="text-3xl text-[#075697]">
+              Shop By
+              <i className="font-serif text-[#FAC409]"> Category</i>
+            </h1>
             <Button
               style={{
                 background: "#075697",

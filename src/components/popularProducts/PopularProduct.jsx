@@ -8,7 +8,10 @@ function PopularProduct() {
       <div className="product-contaoner mb-8">
         <div className="main-container">
           <div className="product-title-bar">
-            <h1 className="text-3xl ">Popular Print Products</h1>
+            <h1 className="text-3xl text-[#075697]">
+              Popular Print
+              <i className="font-serif text-[#FAC409]"> Products</i>
+            </h1>
           </div>
           <div
             className="all-product-container mt-4"
