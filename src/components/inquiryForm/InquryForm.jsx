@@ -2,6 +2,14 @@ import React from "react";
 import formImg from "../../assets/H4-images-9.jpg";
 import { Button } from "@mui/material";
 import { FaAngleRight } from "react-icons/fa";
+import expertiesSecImg from "../../assets/experties-sec-image.jpg";
+import expertiesSec2 from "../../assets/experties-sec-2.jpg";
+import bgShadow from "../../assets/bg-shadow.png";
+import arrow from "../../assets/arrow.png";
+import printer from "../../assets/printer2.png";
+import book from "../../assets/book.png";
+import nib from "../../assets/nib.png";
+import box from "../../assets/box (2).png";
 
 const InquryForm = () => {
   return (
@@ -9,14 +17,14 @@ const InquryForm = () => {
       <div
         className="inquiry-form-container py-20 mb-16"
         style={{
-          background: "#006697",
-          backgroundImage: `url(${formImg})`,
+          background: "#00599c",
+          // backgroundImage: `url(${formImg})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "contain",
           backgroundPosition: "center",
         }}
       >
-        <div className="main-container flex">
+        <div className="main-container flex justify-between gap-16">
           <div className="left-side w-1/2">
             <div className="form-title-bar">
               <h1 className="text-white text-3xl">
@@ -219,7 +227,50 @@ const InquryForm = () => {
             </form>
           </div>
           <div className="right-side w-1/2">
-            <div className="img">{/* <img src={formImg} alt="" /> */}</div>
+            <div
+              className="experties-image  relative"
+              style={{
+                // background: "#defffd",
+                backgroundImage: `url(${bgShadow})`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                backgroundPosition: "top",
+                backgroundSize: "cover",
+              }}
+            >
+              <img src={expertiesSecImg} alt="" className="rounded-xl" />
+              <img
+                src={expertiesSec2}
+                alt=""
+                className="ml-auto absolute right-0 top-[90%] rounded-xl"
+              />
+              <img
+                src={arrow}
+                alt=""
+                className="absolute right-1/2 top-[96%] rotate-[-13deg] w-32 "
+              />
+              <img
+                src={printer}
+                alt=""
+                className="absolute right-[15%] top-[10%]  w-16 "
+              />
+              <img
+                src={book}
+                alt=""
+                className="absolute right-[0%] top-[50%]  w-16 "
+              />
+              <img
+                src={nib}
+                alt=""
+                className="absolute left-[0%] bottom-[-20%]  w-16 "
+              />
+              <img
+                src={box}
+                alt=""
+                className="absolute left-[30%] bottom-[-45%]  w-16 "
+              />
+            </div>
           </div>
         </div>
       </div>

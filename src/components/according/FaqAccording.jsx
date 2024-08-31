@@ -18,18 +18,18 @@ function FaqAccording() {
             </h1>
           </div>
           <div>
-            <Accordion style={{ padding: "1.2rem 1rem" }}>
+            <Accordion style={{ padding: "1.2rem 1rem" }} defaultExpanded>
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1-content"
                 id="panel1-header"
               >
-                Accordion 1
+                What types of boxes can you print?
               </AccordionSummary>
               <AccordionDetails>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+                We offer a wide range of box printing services, including custom
+                sizes, shapes, and designs. Whether you need retail packaging,
+                shipping boxes, or specialty designs, we can handle it all.
               </AccordionDetails>
             </Accordion>
             <Accordion style={{ padding: "1.2rem 1rem" }}>
@@ -38,31 +38,67 @@ function FaqAccording() {
                 aria-controls="panel2-content"
                 id="panel2-header"
               >
-                Accordion 2
+                Can I provide my own design for the boxes?
               </AccordionSummary>
               <AccordionDetails>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+                Absolutely! You can provide your own design, or our design team
+                can work with you to create a custom look that fits your brand.
               </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded style={{ padding: "1.2rem 1rem" }}>
+            <Accordion style={{ padding: "1.2rem 1rem" }}>
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel3-content"
                 id="panel3-header"
               >
-                Accordion Actions
+                What is the minimum order quantity?
               </AccordionSummary>
               <AccordionDetails>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+                Our minimum order quantity varies depending on the type and size
+                of the box, but we strive to accommodate both small and large
+                orders.
               </AccordionDetails>
-              <AccordionActions>
+              {/* <AccordionActions>
                 <Button>Cancel</Button>
                 <Button>Agree</Button>
-              </AccordionActions>
+              </AccordionActions> */}
+            </Accordion>
+            <Accordion style={{ padding: "1.2rem 1rem" }}>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel3-content"
+                id="panel3-header"
+              >
+                How long does it take to complete an order?
+              </AccordionSummary>
+              <AccordionDetails>
+                Production times depend on the complexity and quantity of your
+                order. We typically complete orders within 7-10 business days,
+                but we also offer expedited services if you’re on a tight
+                deadline.
+              </AccordionDetails>
+              {/* <AccordionActions>
+                <Button>Cancel</Button>
+                <Button>Agree</Button>
+              </AccordionActions> */}
+            </Accordion>
+            <Accordion style={{ padding: "1.2rem 1rem" }}>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel3-content"
+                id="panel3-header"
+              >
+                Do you offer eco-friendly packaging options?
+              </AccordionSummary>
+              <AccordionDetails>
+                Yes, we offer eco-friendly materials and printing options to
+                help reduce environmental impact while maintaining high-quality
+                results.
+              </AccordionDetails>
+              {/* <AccordionActions>
+                <Button>Cancel</Button>
+                <Button>Agree</Button>
+              </AccordionActions> */}
             </Accordion>
           </div>
         </div>

@@ -7,11 +7,11 @@ import { BsSend } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import appstore from "../../assets/app-store.jpg";
 import googlestore from "../../assets/google-store.jpg";
-import payment from "../../assets/payment-method.png";
+import payment from "../../assets/payment.png";
 function Footer() {
   return (
     <>
-      <div className="footer-container bg-zinc-800 mt-12">
+      <div className="footer-container bg-zinc-800  py-16">
         <div className="main-container">
           <div className="footer-content ">
             <div className="row footer-data ">
@@ -21,7 +21,9 @@ function Footer() {
                 </div>
                 <div className="company-info mt-4 ">
                   <p className="text-[#999999]">
-                    Awesome grocery store website template
+                    valueBox is your go-to for custom box printing. We create
+                    packaging that reflects your brand, combining quality and
+                    design to bring your ideas to life.
                   </p>
                 </div>
               </div>

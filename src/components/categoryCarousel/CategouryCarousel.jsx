@@ -1,6 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
-import catImg1 from "../../assets/sample-product.jpg";
+// import catImg1 from "../../assets/sample-product.jpg";
+import catImg1 from "../../assets/cosmetic-boxes.png";
+import catImg2 from "../../assets/custom-software-boxes.png";
+
 import { Button } from "@mui/material";
 import { FaAngleRight } from "react-icons/fa";
 
@@ -49,7 +52,7 @@ function CategouryCarousel() {
             <div className="w-full ">
               <div className="category-info">
                 <div className="category-img border border-solid w-40 rounded-full overflow-hidden h-40 p-5">
-                  <img src={catImg1} alt="" />
+                  <img src={catImg2} alt="" />
                 </div>
                 <h1 className="w-40 text-center">
                   Software & Electronic Boxes

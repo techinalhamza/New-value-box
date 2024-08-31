@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 import "../src/components/Responsive.css";
-
 import Header from "./components/header/Header";
 import HeroSlider from "./components/hero/HeroSlider";
 import PopularProduct from "./components/popularProducts/PopularProduct";
@@ -12,22 +11,23 @@ import InquryForm from "./components/inquiryForm/InquryForm";
 import FaqAccording from "./components/according/FaqAccording";
 import Footer from "./components/Footer/Footer";
 import CategouryCarousel from "./components/categoryCarousel/CategouryCarousel";
+import FooterBottom from "./components/Footer/FooterBottom.Jsx";
 
 function App() {
   const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />
       <HeroSlider />
       <CategouryCarousel />
-      <ShopbyCategory />
+      {/* <ShopbyCategory /> */}
       <PopularProduct />
       <OurExperties />
       <WhyChooseUs />
       <InquryForm />
       <FaqAccording />
       <Footer />
+      <FooterBottom />
     </>
   );
 }
