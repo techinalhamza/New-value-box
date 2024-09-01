@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../assets/logoo.png";
+import logo from "../../assets/logo-2.png";
 import { FaSearch } from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
 import { CiUser } from "react-icons/ci";
@@ -33,7 +33,7 @@ function Header() {
       <header className=" ">
         <div className="main-container flex items-center justify-between py-4">
           <div className="logo w-[20%}">
-            <img src={logo} alt="" />
+            <img src={logo} alt="" className="w-44" />
           </div>
           <div className="header-search-bar flex items-center  border border-gray-200 h-min rounded-full overflow-hidden w-[40%] px-6">
             <div className="search-btn">

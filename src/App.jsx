@@ -19,11 +19,11 @@ function App() {
     <>
       <Header />
       <HeroSlider />
-      <CategouryCarousel />
       {/* <ShopbyCategory /> */}
       <PopularProduct />
-      <OurExperties />
       <WhyChooseUs />
+      <CategouryCarousel />
+      <OurExperties />
       <InquryForm />
       <FaqAccording />
       <Footer />

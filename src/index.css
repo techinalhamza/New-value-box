@@ -6,13 +6,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+}
+:root {
+  --blue: #008cffd9;
+  --yellow: #fac409;
 }
 body,
 html {
   position: relative;
   width: 100%;
   overflow-x: hidden;
+  font-family: "Quicksand", sans-serif;
 }
 .main-container {
   max-width: 1290px;
@@ -37,7 +41,7 @@ input::placeholder {
 }
 .slick-prev::before,
 .slick-next::before {
-  color: #075697;
+  color: #008cffd9;
   font-size: 2rem;
 }
 /* Change the size of the dots */

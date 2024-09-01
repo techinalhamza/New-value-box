@@ -50,9 +50,15 @@
   display: inline !important;
   margin-right: 10px !important;
   color: #fac409;
-  font-size: 1rem;
+  font-size: 20px;
 }
 .links h1 {
   font-size: 12px;
   margin-top: 1rem !important;
+}
+.links ul li svg {
+  color: #fac409;
+  display: inline;
+  font-size: 20px;
+  margin-right: 10px;
 }

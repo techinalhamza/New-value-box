@@ -4,6 +4,8 @@ import expertiesSecImg from "../../assets/experties-sec-image.jpg";
 import expertiesSec2 from "../../assets/experties-sec-2.jpg";
 import bgShadow from "../../assets/bg-shadow.png";
 import arrow from "../../assets/experiter-arrow.png";
+import banner from "../../assets/Burger-and-Chip-Boxes-removebg-preview.png";
+
 function OurExperties() {
   return (
     <>
@@ -166,7 +168,7 @@ function OurExperties() {
               </div>
             </div>
             <div
-              className="experties-image w-1/2 relative"
+              className="experties-image w-1/2 relative ml-16"
               style={{
                 // background: "#defffd",
                 backgroundImage: `url(${bgShadow})`,
@@ -177,13 +179,14 @@ function OurExperties() {
                 backgroundSize: "cover",
               }}
             >
-              <img src={expertiesSecImg} alt="" className="rounded-xl" />
+              {/* <img src={expertiesSecImg} alt="" className="rounded-xl" />
               <img
                 src={expertiesSec2}
                 alt=""
                 className="ml-auto absolute right-0 top-[60%] rounded-xl"
               />
-              <img src={arrow} alt="" className="absolute right-1/2 " />
+              <img src={arrow} alt="" className="absolute right-1/2 " /> */}
+              <img src={banner} alt="" className="w-[40rem]" />
             </div>
           </div>
         </div>

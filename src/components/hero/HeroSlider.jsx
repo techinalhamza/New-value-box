@@ -4,6 +4,7 @@ import firstSlide from "../../assets/four-slide.jpg";
 import secSlide from "../../assets/third-slide3.jpg";
 import thirdSlide from "../../assets/third-slide2.jpg";
 import { Button } from "@mui/material";
+import { FaArrowRight } from "react-icons/fa";
 
 function HeroSlider() {
   var settings = {
@@ -56,6 +57,7 @@ function HeroSlider() {
                   padding: "10px 20px",
                   marginTop: "1rem",
                 }}
+                endIcon={<FaArrowRight />}
               >
                 Request a Quote
               </Button>
@@ -96,6 +98,7 @@ function HeroSlider() {
                   padding: "10px 20px",
                   marginTop: "1rem",
                 }}
+                endIcon={<FaArrowRight />}
               >
                 Request a Quote
               </Button>
@@ -118,7 +121,7 @@ function HeroSlider() {
             <div className="main-container slider-content w-1/2">
               <p>#1 Printing Services</p>
               <div className="slider-h1 mt-4 mb-6">
-                <h1 className="text-[4rem] font-bold text-[#075697] leading-[70px]">
+                <h1 className="text-[4rem] font-bold text-[#008cffd9] leading-[70px]">
                   Eco-Friendly
                 </h1>
                 <h1 className="text-[4rem] font-bold text-[#075697] leading-[70px]">
@@ -131,11 +134,12 @@ function HeroSlider() {
               </p>
               <Button
                 style={{
-                  background: "#075697",
+                  background: "#008cffd9",
                   color: "#fff",
                   padding: "10px 20px",
                   marginTop: "1rem",
                 }}
+                endIcon={<FaArrowRight />}
               >
                 Request a Quote
               </Button>

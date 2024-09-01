@@ -9,7 +9,7 @@ import background from "../../assets/background2.jpg";
 function WhyChooseUs() {
   return (
     <>
-      <div className="why-choose-container   py-12">
+      <div className="why-choose-container ">
         <div className="main-container">
           {/* <div className="upper-sec text-center">
             <p>OPTIONS AND MATIERIALS</p>
