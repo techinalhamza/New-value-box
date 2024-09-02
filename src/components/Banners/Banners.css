@@ -1,0 +1,18 @@
+.banner-card-container ul li svg {
+  display: inline;
+  margin-right: 10px;
+  /* color: var(--yellow); */
+}
+.banner-card ul li {
+  margin-top: 10px;
+}
+.banner-card ul li {
+  /* background: #7b7bdf; */
+  /* background: #fac409; */
+  background-color: var(--yellow);
+  padding: 3px 8px;
+  border-radius: 14px;
+}
+.banner-card ul li span {
+  font-size: 12px;
+}

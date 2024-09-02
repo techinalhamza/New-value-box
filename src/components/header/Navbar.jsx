@@ -37,7 +37,7 @@ function Navbar() {
             </ul>
           </div>
           <div className="nav-discount-tagline flex items-center">
-            <span className="text-pink-500 text-2xl mr-2">
+            <span className="text-Yellow text-2xl mr-2">
               <RiDiscountPercentFill />
             </span>
             <p className="text-base">

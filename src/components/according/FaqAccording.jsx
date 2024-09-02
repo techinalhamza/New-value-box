@@ -12,9 +12,9 @@ function FaqAccording() {
       <div className="according-container mb-16">
         <div className="main-container">
           <div className="Accordind-title-bar text-center ">
-            <h1 className="text-3xl font-bold text-[#008cffd9]">
+            <h1 className="text-3xl font-bold text-Blue">
               Frequently Asked
-              <i className=" text-[#FAC409]"> Questions</i>
+              <i className=" text-Yellow"> Questions</i>
             </h1>
           </div>
           <div>

@@ -12,6 +12,8 @@ import FaqAccording from "./components/according/FaqAccording";
 import Footer from "./components/Footer/Footer";
 import CategouryCarousel from "./components/categoryCarousel/CategouryCarousel";
 import FooterBottom from "./components/Footer/FooterBottom.Jsx";
+import Testimonials from "./components/testimonial/Testimonials";
+import Banners from "./components/Banners/Banners";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,8 +26,11 @@ function App() {
       <WhyChooseUs />
       <CategouryCarousel />
       <OurExperties />
+      <Banners />
       <InquryForm />
       <FaqAccording />
+      <Testimonials />
+
       <Footer />
       <FooterBottom />
     </>

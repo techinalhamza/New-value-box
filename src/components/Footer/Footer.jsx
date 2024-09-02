@@ -22,7 +22,7 @@ import {
 function Footer() {
   return (
     <>
-      {/* <FooterTop /> */}
+      <FooterTop />
       <div className="footer-container bg-zinc-800  py-16">
         <div className="main-container">
           <div className="footer-content ">

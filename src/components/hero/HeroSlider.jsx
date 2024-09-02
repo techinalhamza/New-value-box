@@ -38,11 +38,11 @@ function HeroSlider() {
             <div className="main-container slider-content w-1/2">
               <p>#1 Printing Services</p>
               <div className="slider-h1 mt-4 mb-6">
-                <h1 className="text-[4rem] font-bold text-[#075697] leading-[70px]">
+                <h1 className="text-[4rem] font-bold text-Blue leading-[70px]">
                   Eco-Friendly
                 </h1>
-                <h1 className="text-[4rem] font-bold text-[#075697] leading-[70px]">
-                  <i className="font-serif text-[#FAC409]">Packaging</i>
+                <h1 className="text-[4rem] font-bold text-Blue leading-[70px]">
+                  <i className="font-serif text-Yellow">Packaging </i>
                   Bags
                 </h1>
               </div>
@@ -52,7 +52,7 @@ function HeroSlider() {
               </p>
               <Button
                 style={{
-                  background: "#075697",
+                  background: "var(--blue)",
                   color: "#fff",
                   padding: "10px 20px",
                   marginTop: "1rem",
@@ -80,11 +80,12 @@ function HeroSlider() {
             <div className="main-container slider-content w-1/2">
               <p>#1 Printing Services</p>
               <div className="slider-h1 mt-4 mb-6">
-                <h1 className="text-[4rem] font-bold text-[#075697] leading-[70px]">
+                <h1 className="text-[4rem] font-bold text-Blue leading-[70px]">
                   Eco-Friendly
                 </h1>
-                <h1 className="text-[4rem] font-bold text-[#075697] leading-[70px]">
-                  <i className="font-serif text-[#FAC409]">Packaging</i> Bags
+                <h1 className="text-[4rem] font-bold text-Blue leading-[70px]">
+                  <i className="font-serif text-Yellow">Packaging </i>
+                  Bags
                 </h1>
               </div>
               <p className="text-[1.5rem] tracking-[3px]">
@@ -93,7 +94,7 @@ function HeroSlider() {
               </p>
               <Button
                 style={{
-                  background: "#075697",
+                  background: "var(--blue)",
                   color: "#fff",
                   padding: "10px 20px",
                   marginTop: "1rem",
@@ -121,11 +122,12 @@ function HeroSlider() {
             <div className="main-container slider-content w-1/2">
               <p>#1 Printing Services</p>
               <div className="slider-h1 mt-4 mb-6">
-                <h1 className="text-[4rem] font-bold text-[#008cffd9] leading-[70px]">
+                <h1 className="text-[4rem] font-bold text-Blue leading-[70px]">
                   Eco-Friendly
                 </h1>
-                <h1 className="text-[4rem] font-bold text-[#075697] leading-[70px]">
-                  <i className="font-serif text-[#FAC409]">Packaging</i> Bags
+                <h1 className="text-[4rem] font-bold text-Blue leading-[70px]">
+                  <i className="font-serif text-Yellow">Packaging </i>
+                  Bags
                 </h1>
               </div>
               <p className="text-[1.5rem] tracking-[3px]">
@@ -134,7 +136,7 @@ function HeroSlider() {
               </p>
               <Button
                 style={{
-                  background: "#008cffd9",
+                  background: "var(--blue)",
                   color: "#fff",
                   padding: "10px 20px",
                   marginTop: "1rem",
