@@ -1,9 +1,11 @@
 import React from "react";
 import "./Banners.css";
 import banner03 from "/banner03.jpg";
-import banner04 from "/banner04.jpg";
-import banner05 from "/banner-05.jpg";
+import banner04 from "/banner06.jpg";
+import banner05 from "/banner07.jpg";
 import { FaCheckCircle } from "react-icons/fa";
+import { Button } from "@mui/material";
+import { FaAngleRight } from "react-icons/fa";
 
 function Banners() {
   return (
@@ -21,8 +23,10 @@ function Banners() {
               }}
             >
               <p>High-quality customized</p>
-              <h1 className="text-4xl my-4">Personalized bag customization</h1>
-              <ul className="flex gap-[10px]">
+              <h1 className="text-5xl font-bold my-4">
+                Personalized bag customization
+              </h1>
+              <ul className=" ">
                 <li>
                   <FaCheckCircle />
                   <span>Free design</span>
@@ -51,14 +55,28 @@ function Banners() {
               }}
             >
               <p>THE FULL PACKAGE</p>
-              <h1 className="text-4xl my-4">
-                Quick, easy & affordable printing
+              <h1 className="text-5xl font-bold my-4">
+                Quick, easy & <br />
+                affordable printing
               </h1>
               <p>
                 We’re a multi-talented school that delivers a complete brand
                 makeover. Packaging, brand guidelines, stationery, vehicles,
                 logos, adverts…
               </p>
+              <div className="">
+                <Button
+                  style={{
+                    background: "var(--blue)",
+                    color: "#fff",
+                    fontWeight: "bold",
+                    marginTop: "2rem",
+                  }}
+                  endIcon={<FaAngleRight />}
+                >
+                  Shop Now
+                </Button>
+              </div>
             </div>
           </div>
         </div>

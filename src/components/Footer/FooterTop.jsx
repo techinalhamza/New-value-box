@@ -8,7 +8,8 @@ const Newsletter = () => {
           <div className="max-w-[1290px] mx-auto grid lg:grid-cols-3">
             <div className="lg:col-span-2 my-4 place-content-center">
               <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-                Sign up for exclusive promotions on our packaging products.
+                Sign up for exclusive promotions on
+                <br /> our packaging products.
               </h1>
               {/* <p>Sign   up to our newsletter and stay up to date.</p> */}
             </div>

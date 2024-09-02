@@ -214,7 +214,7 @@ const InquryForm = () => {
                   }}
                   endIcon={<FaAngleRight />}
                 >
-                  See All Shop
+                  Request a Quote
                 </Button>
                 {/* <button
 

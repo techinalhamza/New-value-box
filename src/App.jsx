@@ -14,6 +14,7 @@ import CategouryCarousel from "./components/categoryCarousel/CategouryCarousel";
 import FooterBottom from "./components/Footer/FooterBottom.Jsx";
 import Testimonials from "./components/testimonial/Testimonials";
 import Banners from "./components/Banners/Banners";
+import FeatureProduct from "./components/FeatureProduct/FeatureProduct";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,6 +26,7 @@ function App() {
       <PopularProduct />
       <WhyChooseUs />
       <CategouryCarousel />
+      <FeatureProduct />
       <OurExperties />
       <Banners />
       <InquryForm />

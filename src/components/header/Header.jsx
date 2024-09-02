@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../assets/logo-2.png";
+import logo from "/logo.png";
 import { FaSearch } from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
 import { CiUser } from "react-icons/ci";

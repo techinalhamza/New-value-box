@@ -1,18 +1,25 @@
 .banner-card-container ul li svg {
   display: inline;
   margin-right: 10px;
-  /* color: var(--yellow); */
+  color: var(--yellow);
 }
 .banner-card ul li {
   margin-top: 10px;
+  background: #000;
+  width: max-content;
 }
 .banner-card ul li {
   /* background: #7b7bdf; */
   /* background: #fac409; */
-  background-color: var(--yellow);
+  /* background-color: var(--yellow); */
   padding: 3px 8px;
   border-radius: 14px;
 }
 .banner-card ul li span {
-  font-size: 12px;
+  font-size: 14px;
+  color: #fff;
+}
+.banner-card p {
+  color: #fff;
+  width: 70%;
 }
