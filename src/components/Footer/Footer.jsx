@@ -10,6 +10,7 @@ import googlestore from "/google-store.jpg";
 import payment from "/payment.png";
 import FooterTop from "./FooterTop";
 import { TiArrowRight } from "react-icons/ti";
+import FooterBottom from "./FooterBottom";
 
 import {
   FaFacebookF,
@@ -195,6 +196,7 @@ function Footer() {
           </div>
         </div>
       </div>
+      <FooterBottom />
     </>
   );
 }
