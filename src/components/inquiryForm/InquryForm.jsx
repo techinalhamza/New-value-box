@@ -1,15 +1,15 @@
 import React from "react";
-import formImg from "../../assets/H4-images-9.jpg";
+import formImg from "/H4-images-9.jpg";
 import { Button } from "@mui/material";
 import { FaAngleRight } from "react-icons/fa";
-import expertiesSecImg from "../../assets/experties-sec-image.jpg";
-import expertiesSec2 from "../../assets/experties-sec-2.jpg";
-import bgShadow from "../../assets/bg-shadow.png";
-import arrow from "../../assets/arrow.png";
-import printer from "../../assets/printer2.png";
-import book from "../../assets/book.png";
-import nib from "../../assets/nib.png";
-import box from "../../assets/box (2).png";
+import expertiesSecImg from "/experties-sec-image.jpg";
+import expertiesSec2 from "/experties-sec-2.jpg";
+import bgShadow from "/bg-shadow.png";
+import arrow from "/arrow.png";
+import printer from "/printer2.png";
+import book from "/book.png";
+import nib from "/nib.png";
+import box from "/box (2).png";
 
 const InquryForm = () => {
   return (
@@ -234,8 +234,6 @@ const InquryForm = () => {
                 backgroundImage: `url(${bgShadow})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                backgroundSize: "cover",
-                backgroundPosition: "top",
                 backgroundSize: "cover",
               }}
             >

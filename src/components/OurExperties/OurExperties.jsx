@@ -1,10 +1,10 @@
 import React from "react";
-import background from "../../assets/experties-bg.jpg";
-import expertiesSecImg from "../../assets/experties-sec-image.jpg";
-import expertiesSec2 from "../../assets/experties-sec-2.jpg";
-import bgShadow from "../../assets/bg-shadow.png";
-import arrow from "../../assets/experiter-arrow.png";
-import banner from "../../assets/Burger-and-Chip-Boxes-removebg-preview.png";
+import background from "/experties-bg.jpg";
+import expertiesSecImg from "/experties-sec-image.jpg";
+import expertiesSec2 from "/experties-sec-2.jpg";
+import bgShadow from "/bg-shadow.png";
+import arrow from "/experiter-arrow.png";
+import banner from "/Burger-and-Chip-Boxes-removebg-preview.png";
 
 function OurExperties() {
   return (
@@ -174,8 +174,6 @@ function OurExperties() {
                 backgroundImage: `url(${bgShadow})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                backgroundSize: "cover",
-                backgroundPosition: "top",
                 backgroundSize: "cover",
               }}
             >

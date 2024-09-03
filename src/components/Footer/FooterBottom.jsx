@@ -1,5 +1,5 @@
 import React from "react";
-import paymentImg from "../../assets/payment.png";
+import paymentImg from "/payment.png";
 function FooterBottom() {
   return (
     <>

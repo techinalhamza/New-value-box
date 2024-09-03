@@ -1,13 +1,13 @@
 import React from "react";
 import "../../components/Footer/Footer.css";
-import logo from "../../assets/white-logo.png";
+import logo from "/white-logo.png";
 import { CiLocationOn } from "react-icons/ci";
 import { FaHeadset } from "react-icons/fa";
 import { BsSend } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import appstore from "../../assets/app-store.jpg";
-import googlestore from "../../assets/google-store.jpg";
-import payment from "../../assets/payment.png";
+import appstore from "/app-store.jpg";
+import googlestore from "/google-store.jpg";
+import payment from "/payment.png";
 import FooterTop from "./FooterTop";
 import { TiArrowRight } from "react-icons/ti";
 

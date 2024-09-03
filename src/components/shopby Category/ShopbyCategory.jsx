@@ -1,5 +1,5 @@
 import React from "react";
-import catImg1 from "../../assets/sample-product.jpg";
+import catImg1 from "/sample-product.jpg";
 import { Button } from "@mui/material";
 import { FaAngleRight } from "react-icons/fa";
 

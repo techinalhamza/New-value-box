@@ -1,10 +1,10 @@
 import React from "react";
 import { SlSizeFullscreen } from "react-icons/sl";
-import image1 from "../../assets/custom-size (2).png";
-import image2 from "../../assets/Custom-materials.png";
-import image3 from "../../assets/Custom-print (2).png";
-import image4 from "../../assets/Custom-finishes.png";
-import background from "../../assets/background2.jpg";
+import image1 from "/custom-size (2).png";
+import image2 from "/Custom-materials.png";
+import image3 from "/Custom-print (2).png";
+import image4 from "/Custom-finishes.png";
+import background from "/background2.jpg";
 
 function WhyChooseUs() {
   return (

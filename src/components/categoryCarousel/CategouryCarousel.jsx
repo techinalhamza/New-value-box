@@ -1,12 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
 // import catImg1 from "../../assets/sample-product.jpg";
-import catImg1 from "../../assets/cosmetic-boxes.png";
-import catImg2 from "../../assets/custom-software-boxes.png";
-import catImg3 from "../../assets/soap-boxes.png";
-import catImg4 from "../../assets/window-boxes.png";
-import catImg5 from "../../assets/popup-display-boxes.png";
-import catImg6 from "../../assets/gable-boxes.png";
+import catImg1 from "/cosmetic-boxes.png";
+import catImg2 from "/custom-software-boxes.png";
+import catImg3 from "/soap-boxes.png";
+import catImg4 from "/window-boxes.png";
+import catImg5 from "/popup-display-boxes.png";
+import catImg6 from "/gable-boxes.png";
 
 import { Button } from "@mui/material";
 import { FaAngleRight } from "react-icons/fa";

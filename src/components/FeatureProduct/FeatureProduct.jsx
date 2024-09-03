@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import product1 from "../../assets/sample-product.jpg";
+import product1 from "/sample-product.jpg";
 import { Button, Rating } from "@mui/material";
 import productdata from "../Products";
 import { FaAngleRight } from "react-icons/fa";

@@ -30,9 +30,6 @@
   /* text-align: center; */
 }
 
-.footer-content .col ul:nth-last-child() {
-}
-
 .footer-content .footer-col ul li {
   translate: calc(100% - 75%);
   margin-top: 10px;
