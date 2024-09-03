@@ -128,7 +128,7 @@ function HeroSlider() {
               >
                 <p>#1 Printing Services</p>
                 <div className="slider-h1 mt-4 mb-6">
-                  <h1 className="text-[4rem] font-bold text-Blue leading-[70px]">
+                  <h1 className="text-[4rem] font-bold text-Blue leading-[70px] sm:text-[2rem] sm:leading-[40px]">
                     Experience the Art of <br />
                     Perfect
                     <i className="font-serif text-Yellow"> Printing </i>

@@ -24,10 +24,10 @@ const InquryForm = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="main-container flex justify-between gap-16">
-          <div className="left-side w-1/2">
+        <div className="main-container flex sm:flex-wrap justify-between gap-16">
+          <div className="left-side w-1/2 sm:w-full ">
             <div className="form-title-bar">
-              <h1 className="text-white text-3xl mb-4">
+              <h1 className="text-white text-3xl sm:text-[19px] sm:leading-7 sm:mb-8 mb-4">
                 When you have{" "}
                 <i className="font-serif text-[#FAC409]">
                   immediate box printing
@@ -38,7 +38,7 @@ const InquryForm = () => {
             <form>
               {/* First Row: Length, Width, Height */}
               <div className="flex flex-wrap -mx-2">
-                <div className="w-full md:w-1/3 px-2 mb-4">
+                <div className=" w-1/3 px-2 mb-4">
                   <label
                     className="block  text-white text-[12px] font- mb-2"
                     htmlFor="length"
@@ -54,7 +54,7 @@ const InquryForm = () => {
                     required
                   />
                 </div>
-                <div className="w-full md:w-1/3 px-2 mb-4">
+                <div className="w-1/3 px-2 mb-4">
                   <label
                     className="block  text-white text-[12px] font- mb-2"
                     htmlFor="width"
@@ -70,7 +70,7 @@ const InquryForm = () => {
                     required
                   />
                 </div>
-                <div className="w-full md:w-1/3 px-2 mb-4">
+                <div className="w-1/3 px-2 mb-4">
                   <label
                     className="block  text-white text-[12px] font- mb-2"
                     htmlFor="height"
@@ -90,7 +90,7 @@ const InquryForm = () => {
 
               {/* Second Row: Stock Option, Print Option, Finishing Option */}
               <div className="flex flex-wrap -mx-2">
-                <div className="w-full md:w-1/3 px-2 mb-4">
+                <div className="w-1/3 px-2 mb-4">
                   <label
                     className="block  text-white text-[12px] font- mb-2"
                     htmlFor="stockOption"
@@ -105,7 +105,7 @@ const InquryForm = () => {
                     // placeholder="Stock Option"
                   />
                 </div>
-                <div className="w-full md:w-1/3 px-2 mb-4">
+                <div className="w-1/3 px-2 mb-4">
                   <label
                     className="block  text-white text-[12px] font- mb-2"
                     htmlFor="printOption"
@@ -120,7 +120,7 @@ const InquryForm = () => {
                     // placeholder="Print Option"
                   />
                 </div>
-                <div className="w-full md:w-1/3 px-2 mb-4">
+                <div className="w-1/3 px-2 mb-4">
                   <label
                     className="block  text-white text-[12px] font- mb-2"
                     htmlFor="finishingOption"
@@ -139,7 +139,7 @@ const InquryForm = () => {
 
               {/* Third Row: Quantity, Full Name, Email */}
               <div className="flex flex-wrap -mx-2">
-                <div className="w-full md:w-1/3 px-2 mb-4">
+                <div className="w-1/3 px-2 mb-4">
                   <label
                     className="block  text-white text-[12px] font- mb-2"
                     htmlFor="quantity"
@@ -155,7 +155,7 @@ const InquryForm = () => {
                     required
                   />
                 </div>
-                <div className="w-full md:w-1/3 px-2 mb-4">
+                <div className="w-1/3 px-2 mb-4">
                   <label
                     className="block  text-white text-[12px] font- mb-2"
                     htmlFor="fullName"
@@ -170,7 +170,7 @@ const InquryForm = () => {
                     // placeholder="Full Name"
                   />
                 </div>
-                <div className="w-full md:w-1/3 px-2 mb-4">
+                <div className="w-1/3 px-2 mb-4">
                   <label
                     className="block  text-white text-[12px] font- mb-2"
                     htmlFor="email"
@@ -226,7 +226,7 @@ const InquryForm = () => {
               </div>
             </form>
           </div>
-          <div className="right-side w-1/2">
+          <div className="right-side ">
             <div
               className="experties-image  relative"
               style={{
@@ -241,32 +241,32 @@ const InquryForm = () => {
               <img
                 src={expertiesSec2}
                 alt=""
-                className="ml-auto absolute right-0 top-[90%] rounded-xl"
+                className="ml-auto absolute right-0 top-[90%] rounded-xl sm:hidden"
               />
               <img
                 src={arrow}
                 alt=""
-                className="absolute right-1/2 top-[96%] rotate-[-13deg] w-32 "
+                className="absolute right-1/2 top-[96%] rotate-[-13deg] w-32 sm:hidden"
               />
               <img
                 src={printer}
                 alt=""
-                className="absolute right-[15%] top-[10%]  w-16 "
+                className="absolute right-[15%] top-[10%]  w-16 sm:hidden"
               />
               <img
                 src={book}
                 alt=""
-                className="absolute right-[0%] top-[50%]  w-16 "
+                className="absolute right-[0%] top-[50%]  w-16 sm:hidden"
               />
               <img
                 src={nib}
                 alt=""
-                className="absolute left-[0%] bottom-[-20%]  w-16 "
+                className="absolute left-[0%] bottom-[-20%]  w-16 sm:hidden"
               />
               <img
                 src={box}
                 alt=""
-                className="absolute left-[30%] bottom-[-45%]  w-16 "
+                className="absolute left-[30%] bottom-[-45%]  w-16 sm:hidden "
               />
             </div>
           </div>

@@ -22,6 +22,29 @@ function CategouryCarousel() {
     autoplay: true, // Enable autoplay
     autoplaySpeed: 1500, // Autoplay speed
     mobileFirst: true,
+    responsive: [
+      {
+        breakpoint: 1560, // Breakpoint for larger screens
+        settings: {
+          slidesToShow: 8, // Adjust number of slides to show
+          slidesToScroll: 1, // Adjust number of slides to scroll
+        },
+      },
+      {
+        breakpoint: 780, // Breakpoint for medium screens
+        settings: {
+          slidesToShow: 4, // Adjust number of slides to show
+          slidesToScroll: 1, // Adjust number of slides to scroll
+        },
+      },
+      {
+        breakpoint: 480, // Breakpoint for small screens
+        settings: {
+          slidesToShow: 2, // Adjust number of slides to show
+          slidesToScroll: 1, // Adjust number of slides to scroll
+        },
+      },
+    ],
   };
   return (
     <>

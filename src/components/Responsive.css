@@ -10,6 +10,9 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 786px) {
+  header {
+    padding-bottom: 10px;
+  }
   .nav-links {
     display: none !important;
     position: absolute;

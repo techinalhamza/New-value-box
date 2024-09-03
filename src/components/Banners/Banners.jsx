@@ -12,9 +12,9 @@ function Banners() {
     <>
       <div className="banner-container my-16">
         <div className="main-container">
-          <div className="banner-card-container flex h-[28rem] gap-4 ">
+          <div className="banner-card-container flex sm:flex-wrap  gap-4 ">
             <div
-              className="banner-card w-1/2 bg-[#F8EFEA] rounded-lg p-8 flex items-cnter justify-bet  flex-col"
+              className="banner-card w-1/2 sm:w-full bg-[#F8EFEA] rounded-lg p-8 flex items-cnter flex-wrap  flex-col"
               style={{
                 backgroundImage: `url(${banner05})`,
                 backgroundPosition: "center",
@@ -46,7 +46,7 @@ function Banners() {
               </ul>
             </div>
             <div
-              className="banner-card w-1/2 bg-[#E6F4FA] rounded-lg p-8 flex items-centr justify-bet flex-col"
+              className="banner-card w-1/2  sm:w-full bg-[#E6F4FA] rounded-lg p-8 flex items-centr justify-bet flex-col"
               style={{
                 backgroundImage: `url(${banner04})`,
                 backgroundPosition: "center",

@@ -4,7 +4,7 @@ import expertiesSecImg from "/experties-sec-image.jpg";
 import expertiesSec2 from "/experties-sec-2.jpg";
 import bgShadow from "/bg-shadow.png";
 import arrow from "/experiter-arrow.png";
-import banner from "/Burger-and-Chip-Boxes-removebg-preview.png";
+import banner from "/banner-09.png";
 
 function OurExperties() {
   return (
@@ -13,7 +13,7 @@ function OurExperties() {
         className="our-experties-container pt-24 pb-32"
         style={{
           background: "#defffd",
-          //   backgroundImage: `url(${background})`,
+          backgroundImage: `url(${banner})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -21,7 +21,7 @@ function OurExperties() {
       >
         <div className="main-container">
           <div className="experties-content flex  justify-center ">
-            <div className="experties-info w-1/2">
+            <div className="experties-info w-1/2 sm:w-full">
               <p className="text-[#075697]">DESIGNED FOR BUSINESSES</p>
               <h1 className="text-[40px]">
                 Not Sure What You Want? Our Experts Can Help
@@ -170,21 +170,13 @@ function OurExperties() {
             <div
               className="experties-image w-1/2 relative ml-16"
               style={{
-                // background: "#defffd",
-                backgroundImage: `url(${bgShadow})`,
+                // backgroundImage: `url(${bgShadow})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
               }}
             >
-              {/* <img src={expertiesSecImg} alt="" className="rounded-xl" />
-              <img
-                src={expertiesSec2}
-                alt=""
-                className="ml-auto absolute right-0 top-[60%] rounded-xl"
-              />
-              <img src={arrow} alt="" className="absolute right-1/2 " /> */}
-              <img src={banner} alt="" className="w-[40rem]" />
+              {/* <img src={banner} alt="" className="w-[40rem]" /> */}
             </div>
           </div>
         </div>

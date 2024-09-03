@@ -59,3 +59,10 @@
   font-size: 20px;
   margin-right: 10px;
 }
+
+@media (max-width: 786px) {
+  .footer-content .footer-col .hd,
+  .footer-content .footer-col ul li {
+    translate: 0;
+  }
+}

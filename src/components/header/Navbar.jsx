@@ -5,7 +5,7 @@ import { RiDiscountPercentFill } from "react-icons/ri";
 function Navbar() {
   return (
     <>
-      <nav className=" border-t border-gray-300 py-4 mt-24">
+      <nav className="   py-4 mt-24">
         <div className="main-container flex items-center justify-between">
           <div className="nav-links">
             <ul className="flex gap-4">
