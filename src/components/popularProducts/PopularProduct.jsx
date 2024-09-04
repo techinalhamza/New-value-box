@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import product1 from "/sample-product.jpg";
+import product1 from "/hair-extension-boxes.png";
 import { Button, Rating } from "@mui/material";
 import productdata from "../Products";
 import { FaAngleRight } from "react-icons/fa";
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function PopularProduct() {
   const [products, setProducts] = useState(productdata);
-  // console.log(products);
+  console.log(products);
 
   return (
     <>
@@ -67,226 +67,363 @@ function PopularProduct() {
               placeItems: "center",
             }}
           >
-            {products.map((val) => {
-              console.log(val.name);
-              return (
-                <>
-                  <div className="product-card max-w-[18rem] sm:max-w-[100%] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between p-4">
-                    <div className="product-image-bx w-full border-[14px] border-[#f5f5f5] rounded-lg">
-                      <img
-                        src={val.img}
-                        alt=""
-                        className="m-auto bg-[#f5f5f5]"
-                      />
-                    </div>
-                    <div className="product-info ">
-                      <h1 className="product-name font-bold my-4 text-xl">
-                        {val.name}
-                      </h1>
-                      {/* <Rating
-                        readOnly
-                        defaultValue={4}
-                        precision={0.5}
-                        style={{ fontSize: "18px" }}
-                      /> */}
-                      <p className="text-[14px] font-light text-[#555]">
-                        {val.desc.length > 80
-                          ? val.desc.substr(0, 80) + "..."
-                          : val.desc}
-                      </p>
-                      <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-4">
-                        <Rating
-                          readOnly
-                          defaultValue={4}
-                          precision={0.5}
-                          style={{ fontSize: "18px" }}
+            <div className="product-card max-w-[18rem] sm:max-w-[100%] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between p-4">
+              <div className="product-image-bx w-full border-[14px] border-[#8bb0c0] rounded-lg">
+                <img
+                  src={product1}
+                  alt=""
+                  className="m-auto bg-[#8bb0c0] w-full aspect-[4/3] object-contain "
+                />
+              </div>
+              <div className="product-info ">
+                <h1 className="product-name font-bold my-4 text-xl">
+                  Box custom die
+                </h1>
+
+                <p className="text-[14px] font-light text-[#555]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cumque cum neque omnis expedita repellat iusto modi odio odit
+                  obcaecati atque!
+                </p>
+                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-4">
+                  <Rating
+                    readOnly
+                    defaultValue={4}
+                    precision={0.5}
+                    style={{ fontSize: "18px" }}
+                  />
+                  <Button
+                    style={{
+                      background: "var(--blue)",
+                      color: "#fff",
+                      padding: "6px 20px",
+                      // width: "100%",
+                    }}
+                  >
+                    Buy Now
+                  </Button>
+                  {/* <span>15% discount</span> */}
+                </div>
+              </div>
+            </div>
+            <div className="product-card max-w-[18rem] sm:max-w-[100%] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between p-4">
+              <div className="product-image-bx w-full border-[14px] border-[#8bb0c0] rounded-lg">
+                <img
+                  src={product1}
+                  alt=""
+                  className="m-auto bg-[#8bb0c0] w-full aspect-[4/3] object-contain "
+                />
+              </div>
+              <div className="product-info ">
+                <h1 className="product-name font-bold my-4 text-xl">
+                  Box custom die
+                </h1>
+
+                <p className="text-[14px] font-light text-[#555]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cumque cum neque omnis expedita repellat iusto modi odio odit
+                  obcaecati atque!
+                </p>
+                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-4">
+                  <Rating
+                    readOnly
+                    defaultValue={4}
+                    precision={0.5}
+                    style={{ fontSize: "18px" }}
+                  />
+                  <Button
+                    style={{
+                      background: "var(--blue)",
+                      color: "#fff",
+                      padding: "6px 20px",
+                      // width: "100%",
+                    }}
+                  >
+                    Buy Now
+                  </Button>
+                  {/* <span>15% discount</span> */}
+                </div>
+              </div>
+            </div>
+            <div className="product-card max-w-[18rem] sm:max-w-[100%] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between p-4">
+              <div className="product-image-bx w-full border-[14px] border-[#8bb0c0] rounded-lg">
+                <img
+                  src={product1}
+                  alt=""
+                  className="m-auto bg-[#8bb0c0] w-full aspect-[4/3] object-contain "
+                />
+              </div>
+              <div className="product-info ">
+                <h1 className="product-name font-bold my-4 text-xl">
+                  Box custom die
+                </h1>
+
+                <p className="text-[14px] font-light text-[#555]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cumque cum neque omnis expedita repellat iusto modi odio odit
+                  obcaecati atque!
+                </p>
+                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-4">
+                  <Rating
+                    readOnly
+                    defaultValue={4}
+                    precision={0.5}
+                    style={{ fontSize: "18px" }}
+                  />
+                  <Button
+                    style={{
+                      background: "var(--blue)",
+                      color: "#fff",
+                      padding: "6px 20px",
+                      // width: "100%",
+                    }}
+                  >
+                    Buy Now
+                  </Button>
+                  {/* <span>15% discount</span> */}
+                </div>
+              </div>
+            </div>
+            <div className="product-card max-w-[18rem] sm:max-w-[100%] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between p-4">
+              <div className="product-image-bx w-full border-[14px] border-[#8bb0c0] rounded-lg">
+                <img
+                  src={product1}
+                  alt=""
+                  className="m-auto bg-[#8bb0c0] w-full aspect-[4/3] object-contain "
+                />
+              </div>
+              <div className="product-info ">
+                <h1 className="product-name font-bold my-4 text-xl">
+                  Box custom die
+                </h1>
+
+                <p className="text-[14px] font-light text-[#555]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cumque cum neque omnis expedita repellat iusto modi odio odit
+                  obcaecati atque!
+                </p>
+                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-4">
+                  <Rating
+                    readOnly
+                    defaultValue={4}
+                    precision={0.5}
+                    style={{ fontSize: "18px" }}
+                  />
+                  <Button
+                    style={{
+                      background: "var(--blue)",
+                      color: "#fff",
+                      padding: "6px 20px",
+                      // width: "100%",
+                    }}
+                  >
+                    Buy Now
+                  </Button>
+                  {/* <span>15% discount</span> */}
+                </div>
+              </div>
+            </div>
+            <div className="product-card max-w-[18rem] sm:max-w-[100%] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between p-4">
+              <div className="product-image-bx w-full border-[14px] border-[#8bb0c0] rounded-lg">
+                <img
+                  src={product1}
+                  alt=""
+                  className="m-auto bg-[#8bb0c0] w-full aspect-[4/3] object-contain "
+                />
+              </div>
+              <div className="product-info ">
+                <h1 className="product-name font-bold my-4 text-xl">
+                  Box custom die
+                </h1>
+
+                <p className="text-[14px] font-light text-[#555]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cumque cum neque omnis expedita repellat iusto modi odio odit
+                  obcaecati atque!
+                </p>
+                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-4">
+                  <Rating
+                    readOnly
+                    defaultValue={4}
+                    precision={0.5}
+                    style={{ fontSize: "18px" }}
+                  />
+                  <Button
+                    style={{
+                      background: "var(--blue)",
+                      color: "#fff",
+                      padding: "6px 20px",
+                      // width: "100%",
+                    }}
+                  >
+                    Buy Now
+                  </Button>
+                  {/* <span>15% discount</span> */}
+                </div>
+              </div>
+            </div>
+            <div className="product-card max-w-[18rem] sm:max-w-[100%] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between p-4">
+              <div className="product-image-bx w-full border-[14px] border-[#8bb0c0] rounded-lg">
+                <img
+                  src={product1}
+                  alt=""
+                  className="m-auto bg-[#8bb0c0] w-full aspect-[4/3] object-contain "
+                />
+              </div>
+              <div className="product-info ">
+                <h1 className="product-name font-bold my-4 text-xl">
+                  Box custom die
+                </h1>
+
+                <p className="text-[14px] font-light text-[#555]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cumque cum neque omnis expedita repellat iusto modi odio odit
+                  obcaecati atque!
+                </p>
+                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-4">
+                  <Rating
+                    readOnly
+                    defaultValue={4}
+                    precision={0.5}
+                    style={{ fontSize: "18px" }}
+                  />
+                  <Button
+                    style={{
+                      background: "var(--blue)",
+                      color: "#fff",
+                      padding: "6px 20px",
+                      // width: "100%",
+                    }}
+                  >
+                    Buy Now
+                  </Button>
+                  {/* <span>15% discount</span> */}
+                </div>
+              </div>
+            </div>
+            <div className="product-card max-w-[18rem] sm:max-w-[100%] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between p-4">
+              <div className="product-image-bx w-full border-[14px] border-[#8bb0c0] rounded-lg">
+                <img
+                  src={product1}
+                  alt=""
+                  className="m-auto bg-[#8bb0c0] w-full aspect-[4/3] object-contain "
+                />
+              </div>
+              <div className="product-info ">
+                <h1 className="product-name font-bold my-4 text-xl">
+                  Box custom die
+                </h1>
+
+                <p className="text-[14px] font-light text-[#555]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cumque cum neque omnis expedita repellat iusto modi odio odit
+                  obcaecati atque!
+                </p>
+                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-4">
+                  <Rating
+                    readOnly
+                    defaultValue={4}
+                    precision={0.5}
+                    style={{ fontSize: "18px" }}
+                  />
+                  <Button
+                    style={{
+                      background: "var(--blue)",
+                      color: "#fff",
+                      padding: "6px 20px",
+                      // width: "100%",
+                    }}
+                  >
+                    Buy Now
+                  </Button>
+                  {/* <span>15% discount</span> */}
+                </div>
+              </div>
+            </div>
+            <div className="product-card max-w-[18rem] sm:max-w-[100%] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between p-4">
+              <div className="product-image-bx w-full border-[14px] border-[#8bb0c0] rounded-lg">
+                <img
+                  src={product1}
+                  alt=""
+                  className="m-auto bg-[#8bb0c0] w-full aspect-[4/3] object-contain "
+                />
+              </div>
+              <div className="product-info ">
+                <h1 className="product-name font-bold my-4 text-xl">
+                  Box custom die
+                </h1>
+
+                <p className="text-[14px] font-light text-[#555]">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cumque cum neque omnis expedita repellat iusto modi odio odit
+                  obcaecati atque!
+                </p>
+                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-4">
+                  <Rating
+                    readOnly
+                    defaultValue={4}
+                    precision={0.5}
+                    style={{ fontSize: "18px" }}
+                  />
+                  <Button
+                    style={{
+                      background: "var(--blue)",
+                      color: "#fff",
+                      padding: "6px 20px",
+                      // width: "100%",
+                    }}
+                  >
+                    Buy Now
+                  </Button>
+                  {/* <span>15% discount</span> */}
+                </div>
+              </div>
+            </div>
+            {/* {products.map((val_) => {
+              return val_.items.map((val) => {
+                return (
+                  <>
+                    <div className="product-card max-w-[18rem] sm:max-w-[100%] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between p-4">
+                      <div className="product-image-bx w-full border-[14px] border-[#8bb0c0] rounded-lg">
+                        <img
+                          src={val.img}
+                          alt=""
+                          className="m-auto bg-[#8bb0c0] w-full aspect-[4/3] object-contain "
                         />
-                        <Button
-                          style={{
-                            background: "var(--blue)",
-                            color: "#fff",
-                            padding: "6px 20px",
-                            // width: "100%",
-                          }}
-                        >
-                          Buy Now
-                        </Button>
-                        {/* <span>15% discount</span> */}
+                      </div>
+                      <div className="product-info ">
+                        <h1 className="product-name font-bold my-4 text-xl">
+                          {val.name}
+                        </h1>
+
+                        <p className="text-[14px] font-light text-[#555]">
+                          {val.desc.length > 80
+                            ? val.desc.substr(0, 80) + "..."
+                            : val.desc}
+                        </p>
+                        <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-4">
+                          <Rating
+                            readOnly
+                            defaultValue={4}
+                            precision={0.5}
+                            style={{ fontSize: "18px" }}
+                          />
+                          <Button
+                            style={{
+                              background: "var(--blue)",
+                              color: "#fff",
+                              padding: "6px 20px",
+                            }}
+                          >
+                            Buy Now
+                          </Button>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </>
-              );
-            })}
-
-            {/* <div className="product-card max-w-[18rem] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between">
-              <div className="product-image-bx w-full">
-                <img src={product1} alt="" className="m-auto" />
-              </div>
-              <div className="product-info p-4">
-                <h1 className="product-name font-bold">Coffee Cups</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Fugit voluptatum iusto voluptatem?
-                </p>
-                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-8">
-                  <Button
-                    style={{
-                      background: "#075697",
-                      color: "#fff",
-                      padding: "6px 20px",
-                    }}
-                  >
-                    Buy Now
-                  </Button>
-                  <span>15% discount</span>
-                </div>
-              </div>
-            </div>
-            <div className="product-card max-w-[18rem] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between">
-              <div className="product-image-bx w-full">
-                <img src={product1} alt="" className="m-auto" />
-              </div>
-              <div className="product-info p-4">
-                <h1 className="product-name font-bold">Coffee Cups</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Fugit voluptatum iusto voluptatem?
-                </p>
-                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-8">
-                  <Button
-                    style={{
-                      background: "#075697",
-                      color: "#fff",
-                      padding: "6px 20px",
-                    }}
-                  >
-                    Buy Now
-                  </Button>
-                  <span>15% discount</span>
-                </div>
-              </div>
-            </div>
-            <div className="product-card max-w-[18rem] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between">
-              <div className="product-image-bx w-full">
-                <img src={product1} alt="" className="m-auto" />
-              </div>
-              <div className="product-info p-4">
-                <h1 className="product-name font-bold">Coffee Cups</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Fugit voluptatum iusto voluptatem?
-                </p>
-                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-8">
-                  <Button
-                    style={{
-                      background: "#075697",
-                      color: "#fff",
-                      padding: "6px 20px",
-                    }}
-                  >
-                    Buy Now
-                  </Button>
-                  <span>15% discount</span>
-                </div>
-              </div>
-            </div>
-            <div className="product-card max-w-[18rem] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between">
-              <div className="product-image-bx w-full">
-                <img src={product1} alt="" className="m-auto" />
-              </div>
-              <div className="product-info p-4">
-                <h1 className="product-name font-bold">Coffee Cups</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Fugit voluptatum iusto voluptatem?
-                </p>
-                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-8">
-                  <Button
-                    style={{
-                      background: "#075697",
-                      color: "#fff",
-                      padding: "6px 20px",
-                    }}
-                  >
-                    Buy Now
-                  </Button>
-                  <span>15% discount</span>
-                </div>
-              </div>
-            </div>
-            <div className="product-card max-w-[18rem] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between">
-              <div className="product-image-bx w-full">
-                <img src={product1} alt="" className="m-auto" />
-              </div>
-              <div className="product-info p-4">
-                <h1 className="product-name font-bold">Coffee Cups</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Fugit voluptatum iusto voluptatem?
-                </p>
-                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-8">
-                  <Button
-                    style={{
-                      background: "#075697",
-                      color: "#fff",
-                      padding: "6px 20px",
-                    }}
-                  >
-                    Buy Now
-                  </Button>
-                  <span>15% discount</span>
-                </div>
-              </div>
-            </div>
-            <div className="product-card max-w-[18rem] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between">
-              <div className="product-image-bx w-full">
-                <img src={product1} alt="" className="m-auto" />
-              </div>
-              <div className="product-info p-4">
-                <h1 className="product-name font-bold">Coffee Cups</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Fugit voluptatum iusto voluptatem?
-                </p>
-                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-8">
-                  <Button
-                    style={{
-                      background: "#075697",
-                      color: "#fff",
-                      padding: "6px 20px",
-                    }}
-                  >
-                    Buy Now
-                  </Button>
-                  <span>15% discount</span>
-                </div>
-              </div>
-            </div>
-            <div className="product-card max-w-[18rem] w-full border border-[#e9e3e3] rounded-lg flex flex-col justify-between">
-              <div className="product-image-bx w-full">
-                <img src={product1} alt="" className="m-auto" />
-              </div>
-              <div className="product-info p-4">
-                <h1 className="product-name font-bold">Coffee Cups</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Fugit voluptatum iusto voluptatem?
-                </p>
-                <div className="product-btn flex items-center justify-between  text-[#FAC409] mt-8">
-                  <Button
-                    style={{
-                      background: "#075697",
-                      color: "#fff",
-                      padding: "6px 20px",
-                    }}
-                  >
-                    Buy Now
-                  </Button>
-                  <span>15% discount</span>
-                </div>
-              </div>
-            </div> */}
+                  </>
+                );
+              });
+            })} */}
           </div>
         </div>
       </div>
